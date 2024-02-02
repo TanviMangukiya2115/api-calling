@@ -1,0 +1,74 @@
+  *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+   }
+   .api-head{
+     background-color: white;
+     color: #202329;
+     font-size: 100px;
+     font-weight: 900px;
+     text-align: center;
+     padding: 113px 0px 100px 0px;
+   }
+   .main{
+     background-color: #272B33;
+     color: white;
+     padding: 100px 50px;
+     display: flex;
+     flex-wrap: wrap;
+   }
+   
+   .cnt-div{
+     background-color: #3C3E44;
+     width: 49%;
+     height: 230px;
+     margin: 0px 5px;
+     margin-bottom: 15px;
+     border-radius: 12px;
+     display: flex;
+     flex-direction: row;
+   }
+   .image img{
+     border-radius:12px 0 0 12px;
+     height: 230px;
+     width: 220px;
+   }
+   .text{
+     padding: 8px 0px 0px 20px;
+   }
+   .text h2{
+     font-size: 26.75px;
+   }
+   .text .sts {
+     font-weight: bold ;
+   }
+   .text p{
+     display: flex;
+     justify-content: start;
+     align-items: center;
+   }
+   .text p .dot{
+     width: 10px;
+     height: 10px;
+     border-radius: 10px;
+     margin-right: 5px;
+   }
+   .section{
+     padding: 10px 0px;
+   }
+   .p-gray{
+     color: rgb(158, 158, 158);
+     font-size: 19px;
+     font-weight: bold;
+   }
+   .p-light{
+     font-size: 18px;
+   }
+   .sec{
+     margin-top: 6px;
+     
+   }
+   .text h2:hover,.section .p-light:hover{
+     color: #FF9800;
+   }
